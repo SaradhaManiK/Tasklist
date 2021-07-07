@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="7.26668">
+<testcase classname="In order to remember the things I want to do, as a ToDo MVC user, I want to manage my todo list" name="Enter the todo list" time="5.844733">
+<system-out><![CDATA[Given the user is in homepage...............................................passed
+When the user enters the data...............................................passed
+Then the user verifies the data is updated..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="In order to remember the things I want to do, as a ToDo MVC user, I want to manage my todo list" name="Check for Active and completed tab" time="0.198">
+<system-out><![CDATA[Given the user retrieves the list count and check it matches................passed
+And the user clicks Active tab..............................................passed
+When the user clicks completed tab..........................................passed
+Then verifies the data is empty.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="In order to remember the things I want to do, as a ToDo MVC user, I want to manage my todo list" name="Edit todo list" time="0.267527">
+<system-out><![CDATA[Given the user doubleclicks and edits todo..................................passed
+And verifies the todolist is updated........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="In order to remember the things I want to do, as a ToDo MVC user, I want to manage my todo list" name="Toggle todo list check" time="0.95642">
+<system-out><![CDATA[When the user clicks the toggle icon........................................passed
+Then verify the todo is marked completed....................................passed
+And click the toggle icon again.............................................passed
+Then verify the todo items are still active.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
